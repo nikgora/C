@@ -1,4 +1,10 @@
-//
-// Created by Коля Син on 04.03.2022.
-//
+#include <string.h>
+#include <math.h>
+#include <stdio.h>
+
+int main ()
+{
+    printf("Hello, World!");
+    return 0;
+}
 
