@@ -25,8 +25,15 @@ void print (char str[])
 }
 char * reverse (char str[]){
     char  res [strlen(str)];
+    int j=0;
     for (int i = 0; i < strlen(str); ++i) {
-        res[i]=str[strlen(str)-i-1];
+        res[i]='\0';
+    }
+    for (int i = 0; i < strlen(str); ++i) {
+        if(str[strlen(str)-i-1]!='\0'){
+            j++;
+            res[j]=str[strlen(str)-i-1];
+        }
     }
     return res;
 }
