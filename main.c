@@ -24,7 +24,7 @@ void print (char str[])
     printf("%s",str);
 }
 char * reverse (char str[]){
-    char  res [strlen(str)+1];
+    char  res [strlen(str)];
     for (int i = 0; i < strlen(str); ++i) {
         res[i]=str[strlen(str)-i-1];
     }
