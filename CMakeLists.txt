@@ -4,4 +4,4 @@ project(C_ain C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(C_ain
-        main.c)
+        main.c "task1 znachenie.c" "task1 znachenie.h")

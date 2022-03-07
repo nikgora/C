@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "C_ain::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-C_ain-Debug-0535f77b9358d5a9c860.json",
+					"jsonFile" : "target-C_ain-Debug-867fd61b09df5d1e15a4.json",
 					"name" : "C_ain",
 					"projectIndex" : 0
 				}
@@ -49,7 +49,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/nik/Documents/University/C-ain/cmake-build-debug-coverage",
+		"build" : "/Users/nik/Documents/University/C-ain/cmake-build-debug",
 		"source" : "/Users/nik/Documents/University/C-ain"
 	},
 	"version" : 
