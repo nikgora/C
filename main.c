@@ -13,6 +13,9 @@ char *reverse(char str[]);//инвертирование строки прини
 
 char *scanword(char word[]);//ввод строки  принимает строку в которую надо записать строку результат строка
 
+char *skipspace(char word[]);
+
+
 int main() {
 
     char symbol;
@@ -42,6 +45,8 @@ int main() {
         else if (w)print(" ");
 
     } while (symbol != '.');
+    print("\n");
+    print(skipspace("    ad!@   @       m       m    "));
     return 0;
 }
 
@@ -81,4 +86,24 @@ char *scanword(char word[]) {
         i++;
     } while (symbol != ' ' && symbol != '.');
     return word;
+}
+
+char *skipspace(char word[]) {
+    char res[N] = "";
+    _Bool q = 0;
+    int j = 0;
+    for (int i = 0; i < strlen(word); ++i) {
+        if (word[i] == ' ' && q) {
+            res[j] = word[i];
+            j++;
+            q = 0;
+        }
+        if (word[i] != ' ') {
+            res[j] = word[i];
+            q = 1;
+            j++;
+        }
+    }
+    if (res[strlen(res) - 1] == ' ')res[strlen(res) - 1] = '\0';
+    return res;
 }
