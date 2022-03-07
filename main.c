@@ -46,7 +46,7 @@ int main() {
 
     } while (symbol != '.');
     print("\n");
-    print(skipspace("    ad!@   @       m       m    "));
+    print(skipspace("    ad!@   1@       m       m    "));
     return 0;
 }
 
