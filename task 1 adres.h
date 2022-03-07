@@ -1,0 +1,4 @@
+#ifndef C_AIN_TASK_1_ADRES_H
+#define C_AIN_TASK_1_ADRES_H
+
+#endif //C_AIN_TASK_1_ADRES_H
