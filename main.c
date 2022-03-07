@@ -8,7 +8,7 @@ int main() {
         char word[N] = "";
         _Bool q = 0;
         _Bool w = 1;
-        scanword(word);
+        scanword_znachenie(word);
         symbol = word[strlen(word) - 1];
         if (symbol == '.') {
             q = 1;
@@ -19,18 +19,18 @@ int main() {
         if (i % 2 && w) {
             i++;
             i %= 2;
-            print(word);
+            print_znachenie(word);
         } else if (w) {
             i++;
             i %= 2;
-            print_reverse(word);
+            print_reverse_znachenie(word);
         }
-        if (q)print(".");
-        else if (w)print(" ");
+        if (q)print_znachenie(".");
+        else if (w)print_znachenie(" ");
 
     } while (symbol != '.');
-    print("\n");
-    print(skipspace("    ad!@   1332       m       m    "));
+    print_znachenie("\n");
+    print_znachenie(skipspace_znachenie("    ad!@   1332       m       m    "));
     return 0;
 }
 

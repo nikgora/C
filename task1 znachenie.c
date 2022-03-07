@@ -2,13 +2,13 @@
 
 #include "task1 znachenie.h"
 
-void print(char str[]) {
+void print_znachenie(char str[]) {
     for (int i = 0; i < strlen(str); ++i) {
         printf("%c", str[i]);
     }
 }
 
-char *reverse(char str[]) {
+char *reverse_znachenie(char str[]) {
     char res[N] = "";
     int j = 0;
     for (int i = 0; i < strlen(str); i++) {
@@ -25,11 +25,11 @@ char *reverse(char str[]) {
     return res;
 }
 
-void print_reverse(char str[]) {
-    print(reverse(str));
+void print_reverse_znachenie(char str[]) {
+    print_znachenie(reverse_znachenie(str));
 }
 
-char *scanword(char word[]) {
+char *scanword_znachenie(char word[]) {
     char symbol;
     int i = 0;
     do {
@@ -40,7 +40,7 @@ char *scanword(char word[]) {
     return word;
 }
 
-char *skipspace(char word[]) {
+char *skipspace_znachenie(char word[]) {
     char res[N] = "";
     _Bool q = 0;
     int j = 0;

@@ -1,12 +1,12 @@
 #include "task1 global.h"
 
-void print() {
+void print_global() {
     for (int i = 0; i < strlen(str); ++i) {
         printf("%c", str[i]);
     }
 }
 
-void reverse() {
+void reverse_global() {
     char res[N] = "";
     int j = 0;
     for (int i = 0; i < strlen(str); i++) {
@@ -23,13 +23,13 @@ void reverse() {
     }
 }
 
-void print_reverse() {
-    reverse();
-    print();
-    reverse();
+void print_reverse_global() {
+    reverse_global();
+    print_global();
+    reverse_global();
 }
 
-void scanword() {
+void scanword_global() {
     char symbol;
     int i = 0;
     do {
@@ -39,7 +39,7 @@ void scanword() {
     } while (symbol != ' ' && symbol != '.');
 }
 
-void skipspace() {
+void skipspace_global() {
     char res[N] = "";
     _Bool q = 0;
     int j = 0;
