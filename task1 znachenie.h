@@ -1,6 +1,4 @@
-//
-// Created by Коля Син on 07.03.2022.
-//
+
 
 #ifndef C_AIN_TASK1_ZNACHENIE_H
 #define C_AIN_TASK1_ZNACHENIE_H

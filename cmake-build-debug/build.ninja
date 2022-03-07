@@ -84,6 +84,12 @@ build CMakeFiles/C_ain.dir/task1_znachenie.c.o: C_COMPILER__C_ain_Debug /Users/n
   OBJECT_DIR = CMakeFiles/C_ain.dir
   OBJECT_FILE_DIR = CMakeFiles/C_ain.dir
 
+build CMakeFiles/C_ain.dir/tas1_global.c.o: C_COMPILER__C_ain_Debug /Users/nik/Documents/University/C-ain/tas1$ global.c || cmake_object_order_depends_target_C_ain
+  DEP_FILE = CMakeFiles/C_ain.dir/tas1_global.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/C_ain.dir
+  OBJECT_FILE_DIR = CMakeFiles/C_ain.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target C_ain
@@ -92,7 +98,7 @@ build CMakeFiles/C_ain.dir/task1_znachenie.c.o: C_COMPILER__C_ain_Debug /Users/n
 #############################################
 # Link the executable C_ain
 
-build C_ain: C_EXECUTABLE_LINKER__C_ain_Debug CMakeFiles/C_ain.dir/main.c.o CMakeFiles/C_ain.dir/task1_znachenie.c.o
+build C_ain: C_EXECUTABLE_LINKER__C_ain_Debug CMakeFiles/C_ain.dir/main.c.o CMakeFiles/C_ain.dir/task1_znachenie.c.o CMakeFiles/C_ain.dir/tas1_global.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/C_ain.dir
   POST_BUILD = :

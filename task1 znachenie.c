@@ -1,6 +1,4 @@
-//
-// Created by Коля Син on 07.03.2022.
-//
+
 
 #include "task1 znachenie.h"
 
