@@ -5,27 +5,50 @@
 
 #define N 100
 
-void print(char str[]);
+void print(char str[]);//вывод строки в прямом порядке принимает строку
 
-void print_reverse(char str[]);
+void print_reverse(char str[]);//вывод строки в обратном порядке принимает строку
 
-char *reverse(char str[]);
+char *reverse(char str[]);//инвертирование строки принимает строку результат строка
 
-char *scanword();
+char *scanword(char word[]);//ввод строки  принимает строку в которую надо записать строку результат строка
 
 int main() {
-    char str[N];
+
     char symbol;
-    int i = 0, j = 0;
+    int i = 1;
     do {
-        scanf("%c", &symbol);
-        printf("%c", symbol);
+        char word[N] = "";
+        _Bool q = 0;
+        _Bool w = 1;
+        scanword(word);
+        symbol = word[strlen(word) - 1];
+        if (symbol == '.') {
+            q = 1;
+        }
+        word[strlen(word) - 1] = '\0';
+        if (word[0] == '\0') w = 0;
+
+        if (i % 2 && w) {
+            i++;
+            i %= 2;
+            print(word);
+        } else if (w) {
+            i++;
+            i %= 2;
+            print_reverse(word);
+        }
+        if (q)print(".");
+        else if (w)print(" ");
+
     } while (symbol != '.');
     return 0;
 }
 
 void print(char str[]) {
-    printf("%s", str);
+    for (int i = 0; i < strlen(str); ++i) {
+        printf("%c", str[i]);
+    }
 }
 
 char *reverse(char str[]) {
@@ -37,12 +60,25 @@ char *reverse(char str[]) {
             j++;
         }
     }
+    /*
     for (int i = 0; i < strlen(str); ++i) {
         printf("i=%d res[i]=%c\n", i, res[i]);
     }
+    */
     return res;
 }
 
 void print_reverse(char str[]) {
-    printf("%s", reverse(str));
+    print(reverse(str));
+}
+
+char *scanword(char word[]) {
+    char symbol;
+    int i = 0;
+    do {
+        scanf("%c", &symbol);
+        word[i] = symbol;
+        i++;
+    } while (symbol != ' ' && symbol != '.');
+    return word;
 }
