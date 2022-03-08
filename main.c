@@ -30,7 +30,7 @@ int main() {
 
     } while (symbol != '.');
     print_znachenie("\n");
-    print_znachenie(skipspace_znachenie("    ad!@   1332       m       m    "));
+    print_znachenie(skipspace_znachenie("    ad!@ 1332       m       m    "));
     return 0;
 }
 
