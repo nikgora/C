@@ -24,7 +24,7 @@ char *reverse_adres(char *str[]) {
 }
 
 void print_reverse_adres(char *str[]) {
-    print_adres(reverse_adres(str));
+    print_adres(reverse_adres(*str));
 }
 
 char *scanword_adres(char *word[]) {

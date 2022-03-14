@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="C_ain"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/nik/Documents/University/C-ain/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nik/Documents/University/C-ain/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nik/Documents/University/C-ain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nik/Documents/University/C-ain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nik/Documents/University/C-ain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/nik/Documents/University/C-ain/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nik/Documents/University/C-ain/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nik/Documents/University/C-ain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nik/Documents/University/C-ain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nik/Documents/University/C-ain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/nik/Documents/University/C-ain/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nik/Documents/University/C-ain/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nik/Documents/University/C-ain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nik/Documents/University/C-ain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nik/Documents/University/C-ain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_ain">
+				<Option output="/Users/nik/Documents/University/C-ain/cmake-build-debug/C_ain" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nik/Documents/University/C-ain/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nik/Documents/University/C-ain/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_ain"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nik/Documents/University/C-ain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nik/Documents/University/C-ain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nik/Documents/University/C-ain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_ain/fast">
+				<Option output="/Users/nik/Documents/University/C-ain/cmake-build-debug/C_ain" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nik/Documents/University/C-ain/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nik/Documents/University/C-ain/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_ain/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nik/Documents/University/C-ain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nik/Documents/University/C-ain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nik/Documents/University/C-ain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/nik/Documents/University/C-ain/main.c">
+			<Option target="C_ain"/>
+		</Unit>
+		<Unit filename="/Users/nik/Documents/University/C-ain/task 1 adres.c">
+			<Option target="C_ain"/>
+		</Unit>
+		<Unit filename="/Users/nik/Documents/University/C-ain/task 1 adres.h">
+			<Option target="C_ain"/>
+		</Unit>
+		<Unit filename="/Users/nik/Documents/University/C-ain/task1 global.c">
+			<Option target="C_ain"/>
+		</Unit>
+		<Unit filename="/Users/nik/Documents/University/C-ain/task1 global.h">
+			<Option target="C_ain"/>
+		</Unit>
+		<Unit filename="/Users/nik/Documents/University/C-ain/task1 znachenie.c">
+			<Option target="C_ain"/>
+		</Unit>
+		<Unit filename="/Users/nik/Documents/University/C-ain/task1 znachenie.h">
+			<Option target="C_ain"/>
+		</Unit>
+		<Unit filename="/Users/nik/Documents/University/C-ain/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

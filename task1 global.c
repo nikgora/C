@@ -15,10 +15,10 @@ void reverse_global() {
             j++;
         }
     }
-    for (int i = 0; i < strlen(res); ++i) {
+    for (unsigned long i = 0; i < strlen(res); ++i) {
         str[i] = res[i];
     }
-    for (int i = strlen(res); i < strlen(str); ++i) {
+    for (unsigned long i = strlen(res); i < strlen(str); ++i) {
         str[i] = '\0';
     }
 }
@@ -59,7 +59,7 @@ void skipspace_global() {
     for (int i = 0; i < strlen(res); ++i) {
         str[i] = res[i];
     }
-    for (int i = strlen(res); i < strlen(str); ++i) {
+    for (unsigned long i = strlen(res); i < strlen(str); ++i) {
         str[i] = '\0';
     }
 }
