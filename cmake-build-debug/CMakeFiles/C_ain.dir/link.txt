@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/C_ain.dir/main.c.o CMakeFiles/C_ain.dir/task1_znachenie.c.o CMakeFiles/C_ain.dir/task1_global.c.o CMakeFiles/C_ain.dir/task_1_adres.c.o -o C_ain 
